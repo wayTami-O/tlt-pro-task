@@ -1,5 +1,7 @@
+import BusinessPage from "@/page/business";
+
 function Business() {
-    return ;
+    return <BusinessPage />;
 }
 
 export default Business;
