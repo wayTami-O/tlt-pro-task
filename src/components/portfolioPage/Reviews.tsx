@@ -3,7 +3,6 @@
 import 'swiper/css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { ReactNode } from 'react';
 
 const arrayPhoto: string[] = [
     '/slide.png',
