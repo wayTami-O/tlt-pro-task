@@ -29,7 +29,7 @@ function Facts() {
                 {
                     arrayFactInt.map((el,index)=> {
                         return (
-                            <div className="w-[243rem] h-[321rem] rounded-[16rem] bg-gray px-[24rem] center flex-col">
+                            <div key={index} className="w-[243rem] h-[321rem] rounded-[16rem] bg-gray px-[24rem] center flex-col">
                                 <h2 className="jost text-[64rem] text-primary-text">{el.title}</h2>
                                 <p className="jost text-[28rem] text-primary-text text-center">{el.desc}</p>
                             </div>

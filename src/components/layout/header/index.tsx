@@ -1,4 +1,4 @@
-import { links, linksType } from "@/common/constants";
+import { links } from "@/common/constants";
 import Link from "next/link";
 
 interface navButtonInt {
